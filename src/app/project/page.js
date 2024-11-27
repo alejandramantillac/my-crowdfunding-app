@@ -41,7 +41,7 @@ export default function ProjectDetail() {
             alt="Project Image"
             className="w-full h-64 object-cover rounded-lg"
             height="256"
-            src="https://via.placeholder.com/512x256.png?text=Eco-friendly+Apartments"
+            src="https://www.veegaland.com/wp-content/uploads/2021/12/Eco-friendly-Apartments-How-this-buzzword-functions-at-Veegaland-Apartments.jpg"
             style={{ aspectRatio: "512/256", objectFit: "cover" }}
             width="512"
           />

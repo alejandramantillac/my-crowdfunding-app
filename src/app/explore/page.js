@@ -101,9 +101,9 @@ export default function Explore() {
 
       <div className="p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {[
-          { title: "Eco-friendly Apartments", location: "Nairobi, Kenya", return: "12-15%", rating: 4.5 },
-          { title: "Tech Hub Complex", location: "Bangalore, India", return: "18-20%", rating: 4.8 },
-          { title: "Sustainable Housing", location: "São Paulo, Brazil", return: "10-12%", rating: 4.2 },
+          { title: "Eco-friendly Apartments", location: "Nairobi, Kenya", return: "12-15%", rating: 4.5, image: "https://www.veegaland.com/wp-content/uploads/2021/12/Eco-friendly-Apartments-How-this-buzzword-functions-at-Veegaland-Apartments.jpg" },
+          { title: "Tech Hub Complex", location: "Bangalore, India", return: "18-20%", rating: 4.8, image: "https://www.sunset.com/wp-content/uploads/costco-thrive-living-storefront-1200x600.jpg" },
+          { title: "Sustainable Housing", location: "São Paulo, Brazil", return: "10-12%", rating: 4.2, image: "https://cdn.prod.website-files.com/62d597b300f3e8bc76aff8db/65b7efcc2ab89997cf4963cb_Sustainable%20Urban%20Housing-%20Innovative%20Solutions%20for%20Growing%20Cities.webp" },
         ].map((project, index) => (
           <Card key={index} className="hover:shadow-lg transition-transform transform hover:scale-105" onClick={() => handleProjectClick(project.title)}>
             <CardHeader className="p-4 bg-white dark:bg-gray-800 rounded-t-md">
@@ -113,7 +113,7 @@ export default function Explore() {
               <img
                 alt={project.title}
                 className="w-full h-40 object-cover rounded-md mb-3"
-                src={`https://via.placeholder.com/320x160?text=${project.title.split(" ").join("+")}`}
+                src={project.image}
                 style={{
                   objectFit: "cover",
                 }}

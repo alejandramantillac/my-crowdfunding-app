@@ -17,7 +17,7 @@ export default function Home() {
       <header className="p-4 flex justify-between items-center bg-white dark:bg-gray-800 shadow-md">
         <div className="flex items-center">
           <Globe className="h-8 w-8 text-blue-600 dark:text-blue-400 mr-2" />
-          <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400">GlobalInvest</h1>
+          <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400">BrickBase</h1>
         </div>
         <div className="flex items-center space-x-4">
           <select
@@ -68,7 +68,7 @@ export default function Home() {
       </main>
       
       <section className="bg-white dark:bg-gray-800 py-12 px-4 sm:px-6 md:px-8">
-        <h3 className="text-3xl font-bold text-center mb-8 text-gray-800 dark:text-white">Why Choose GlobalInvest?</h3>
+        <h3 className="text-3xl font-bold text-center mb-8 text-gray-800 dark:text-white">Why Choose BrickBase?</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex flex-col items-center text-center p-6 bg-blue-50 dark:bg-gray-700 rounded-xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
             <DollarSign className="h-16 w-16 text-blue-600 dark:text-blue-400 mb-4" />
@@ -90,7 +90,7 @@ export default function Home() {
       
       <footer className="bg-gray-100 dark:bg-gray-900 py-8 px-4 text-center">
         <div className="max-w-6xl mx-auto">
-          <p className="text-gray-600 dark:text-gray-400 mb-4">© 2024 GlobalInvest. All rights reserved.</p>
+          <p className="text-gray-600 dark:text-gray-400 mb-4">© 2024 BrickBase. All rights reserved.</p>
           <div className="flex justify-center space-x-6 mb-4">
             <a href="#" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors duration-300">Terms of Service</a>
             <a href="#" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors duration-300">Privacy Policy</a>
